@@ -106,5 +106,4 @@ nmap <buffer> q= :call MdMakeH1()<CR>
 nmap <buffer> q- :call MdMakeH2()<CR>
 nmap <buffer> ql :call MdFixOrderedList()<CR>
 nmap <buffer> qz :call MdFold()<CR>
-nmap <buffer> qp :!mdprev %<CR><CR>
-nmap <buffer> qP :!mdprev --pdf %<CR><CR>
+nmap <buffer> qp :!github-markdown-preview %<CR><CR>
